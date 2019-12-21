@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.dev.etviedanse",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "etviedanse",
+    "packageName": "org.dev.etviedanse",
+    "packageFolder": "org/dev/etviedanse",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MDA2ZjJhNTRkNmZhODRhZDY1N2I0ODI0ZjU0MTE5YThiNWE3MGQwY2E3N2I2OGMxNDhhZWI1NTVjZjZiMzA1MTgzY2NhMjM4NWZhMGRmY2QyNjhlZDEyMDdjYmViZjBjMTU2MDEzZmVjMTMzMjNjMjZkZWVmN2IzMjVmZTU5YTQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "lux",
+    "clientThemeVariant": "dark",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en", "de", "es"],
+    "blueprints": []
+  }
+}
