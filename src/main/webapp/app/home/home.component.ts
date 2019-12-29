@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   account: Account;
   authSubscription: Subscription;
   modalRef: NgbModalRef;
+  images = [944, 1011, 984].map(n => `https://picsum.photos/id/${n}/900/500`);
 
   constructor(
     private accountService: AccountService,
