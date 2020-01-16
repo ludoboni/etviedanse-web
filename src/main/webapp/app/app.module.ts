@@ -7,6 +7,8 @@ import { EtviedanseCoreModule } from 'app/core/core.module';
 import { EtviedanseAppRoutingModule } from './app-routing.module';
 import { EtviedanseHomeModule } from './home/home.module';
 import { EtviedanseEntityModule } from './entities/entity.module';
+import { EtviedanseAppAboutUsModule } from './about-us/about-us.module';
+import { EtviedanseAppContactModule } from './contact/contact.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent } from './layouts/main/main.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
@@ -21,6 +23,8 @@ import { ErrorComponent } from './layouts/error/error.component';
     EtviedanseSharedModule,
     EtviedanseCoreModule,
     EtviedanseHomeModule,
+    EtviedanseAppAboutUsModule,
+    EtviedanseAppContactModule,
     // jhipster-needle-angular-add-module JHipster will add new module here
     EtviedanseEntityModule,
     EtviedanseAppRoutingModule
